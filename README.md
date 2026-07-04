@@ -8,12 +8,12 @@ while true do
 
     if player.Team == azuls then
         hrp.CFrame = CFrame.new(-56, 9.80356979, 170)
-        task.wait(2)
+        task.wait(0.6)
         hrp.CFrame = CFrame.new(-35, 8.00001144, 111)
 
     elseif player.Team == vermelho then
         hrp.CFrame = CFrame.new(-56, 9.80356979, -176)
-        task.wait(2)
+        task.wait(0.6)
         hrp.CFrame = CFrame.new(-75, 8.00001144, -117)
 
     else
