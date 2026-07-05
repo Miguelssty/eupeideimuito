@@ -1,6 +1,7 @@
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = playerGui
 
 local frame = Instance.new("Frame")
 frame.Parent = screenGui
@@ -18,7 +19,6 @@ botao.Position = UDim2.new(0.5, -60, 0.5, -40)
 botao.Text = "Start farming."
 
 botao.MouseButton1Click:Connect(function()
-    local player = game.Players.LocalPlayer
 local azuls = game.Teams.Blue
 local vermelho = game.Teams.Red
 
